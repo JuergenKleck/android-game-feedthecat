@@ -1,0 +1,2 @@
+-keep class info.simplyapps.appengine.*
+-keep class info.simplyapps.gameengine.*
