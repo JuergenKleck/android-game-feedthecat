@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Feed The Cat</string>
+    <string name="btn_buy">BUY</string>
+  	<string name="btn_quit">Quit</string>
+  	<string name="btn_ok">OK</string>
+  	<string name="btn_retry">Retry</string>
+  	<string name="error">Error</string>
+    <string name="application_error">Application error: %1$s</string>
+   
+    <string name="statistic_highscore">Highscore:</string>
+    <string name="zero">0</string>
+    <string name="statistic_lastgame">Last Game:</string>
+    <string name="statistic_currentgame">Current Game:</string>
+
+    <string name="options">Options:</string>
+    <string name="options_music">Music</string>
+    <string name="options_difficulty">Difficulty</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+      
+    <string name="update_title">Update available</string>
+    <string name="update_text">Please update to the new version.</string>
+    <string name="check_title">Update check required</string>
+    <string name="check_text">Could not check for required updates. Please check your internet connectivity.</string>
+
+    <string name="save_failed">Failed to save the item.</string>    
+	<string name="delete_failed">Failed to delete the item.</string>    
+
+    <string name="menubutton_start">PLAY</string>
+    <string name="menubutton_quit">QUIT</string>
+    <string name="menubutton_options">OPTIONS</string>
+    <string name="menubutton_back">BACK</string>
+    <string name="menubutton_pause">PAUSE</string>
+
+    <string name="message_loading">LOADING</string>
+    <string name="message_gameround">ROUND {0}</string>
+    <string name="message_gamelost">GAME OVER</string>
+    <string name="message_gamewon">GAME WON</string>
+    <string name="message_score">SCORE {0}:</string>
+    <string name="message_coins">TOTAL COINS:</string>
+    <string name="message_points">TOTAL POINTS:</string>
+	
+    
+    <!-- Previous values from images -->
+    <string name="text_cost">COST</string>
+    <string name="text_purchased">PURCHASED {0} of {1}</string>
+    <string name="text_purchased_level">LEVEL PURCHASED</string>
+    <string name="text_available">AVAILABLE</string>
+    <string name="text_bonus">BONUS</string>
+    <string name="text_button_levels">LEVELS</string>
+    <string name="text_button_settings">SETTINGS</string>
+    <string name="text_button_upgrades">UPGRADES</string>
+    <string name="text_collected">COLLECTED</string>
+    <string name="text_difficulty">DIFFICULTY</string>
+    <string name="text_extension_better_jump">BETTER JUMP</string>
+    <string name="text_extension_catfood">CAT FOOD</string>
+    <string name="text_extension_catmilk">CAT MILK</string>
+    <string name="text_extension_collar">COLLAR</string>
+    <string name="text_extension_flowers">FLOWERS</string>
+    <string name="text_extension_keeppoints">KEEP POINTS</string>
+    <string name="text_extension_morelife">MORE LIFE</string>
+    <string name="text_extension_regeneration">REGENERATION</string>
+    <string name="text_gameover">GAME OVER</string>
+    <string name="text_gamewon">GAME WON</string>
+    <string name="text_levelselect">SELECT LEVEL</string>
+    <string name="text_music">MUSIC</string>
+    <string name="text_off">off</string>
+    <string name="text_on">on</string>
+    <string name="text_pause">PAUSE</string>
+    <string name="text_ready">READY</string>
+    <string name="text_x">X</string>
+    <string name="text_reset">RESET</string>
+    <string name="text_button_catmilk">CAT MILK</string>
+    <string name="text_button_catfood">CAT FOOD</string>
+    <string name="text_upgrade">UPGRADE</string>
+    <string name="text_level">LEVEL</string>
+
+    <string name="level_3">STREET</string>
+    <string name="level_4">STAR</string>
+    <string name="level_5">DESERT</string>
+    <string name="level_6">BLOCKS</string>
+    <string name="level_7">BEACH</string>
+    <string name="level_8">SHIP</string>
+
+</resources>
