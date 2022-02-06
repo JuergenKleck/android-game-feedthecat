@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:simplyapps="http://info.simplyapps.game.feedthecat.rendering"
+    xmlns:simplyapps="http://com.juergenkleck.android.game.feedthecat.rendering"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:id="@+id/homescreen" >
     
-    <info.simplyapps.game.feedthecat.screens.HomeView
+    <com.juergenkleck.android.game.feedthecat.screens.HomeView
         android:id="@+id/homeview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

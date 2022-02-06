@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    compileSdk 32
+    buildToolsVersion '32.1.0 rc1'
     signingConfigs {
         debug {
-            storeFile file('N:\\Workspace\\keystore-debug')
+            storeFile file('..\\..\\keystore-debug')
             storePassword 'android'
         }
         release {
-            storeFile file('N:\\Workspace\\keystore-publish')
+            storeFile file('..\\..\\keystore-publish')
             storePassword 'keystore'
             keyAlias 'key'
             keyPassword 'keypass'
@@ -17,9 +17,9 @@ android {
     }
 
     defaultConfig {
-        applicationId "info.simplyapps.game.feedthecat"
+        applicationId "com.juergenkleck.android.game.feedthecat"
         minSdkVersion 24
-        targetSdkVersion 29
+        targetSdkVersion 32
         versionCode 11
         versionName "1.4.0"
         signingConfig signingConfigs.release
@@ -42,8 +42,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "androidx.fragment:fragment:1.2.4"
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.fragment:fragment:1.4.1'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation project(path: ":appEngine")
     implementation project(path: ":gameEngine")
 }
